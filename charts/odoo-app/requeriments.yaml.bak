@@ -1,5 +1,0 @@
-# Chart.yaml
-dependencies:
-- name: odoo-bd
-  version: "0.1.0"
-  repository: "file://../odoo-bd"
