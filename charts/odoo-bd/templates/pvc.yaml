@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ include "odoo-bd.fullname" . }}
+  labels:
+     {{- include "odoo-bd.labels" . | nindent 4 }}
+spec:
+  storageClassName: {{ .Values.VolumesClaim.storageClassName }}
+  accessModes:
+    - {{ .Values.VolumesClaim.accessMode }}
+  resources:
+    requests:
+      storage: {{ .Values.VolumesClaim.storageSize }}
+
