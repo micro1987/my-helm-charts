@@ -3,9 +3,9 @@ entries:
   odoo-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-18T22:46:42.992996772-03:00"
+    created: "2021-06-18T23:10:25.856664118-03:00"
     description: A Helm chart for Kubernetes
-    digest: f61d56e6f381da97b8fa941ca8e7ebaf57b46d8716ead68a914bb04f9e4e098d
+    digest: 6bfe16476c69f11bb6b5b0c0c81a4d8df7461d920a1c2cee36e77e5dc3d72380
     name: odoo-app
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-18T22:46:42.992335532-03:00"
+    created: "2021-06-18T23:10:25.855898529-03:00"
     description: A Helm chart for Kubernetes
     digest: 40792b522131a762700b6427ab3c5fe1a09bb31dfe5a8cb7bb7effb0a62bad98
     name: odoo-app
@@ -24,9 +24,9 @@ entries:
   odoo-bd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-18T22:46:42.99392976-03:00"
+    created: "2021-06-18T23:10:25.858150802-03:00"
     description: A Helm chart for Kubernetes
-    digest: bbaef284a870cb2a48fc34f8befe92c5c4d72ae0397cfb76b88889149b7f77d1
+    digest: 3d00433e1e4e4a1b6515538ffb685d9e1326b68043fee939dbf41baae9c7c8c9
     name: odoo-bd
     type: application
     urls:
@@ -34,7 +34,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-18T22:46:42.99346696-03:00"
+    created: "2021-06-18T23:10:25.857155836-03:00"
     description: A Helm chart for Kubernetes
     digest: cd87cc90dc353042dd13b721bacbed7be2ade3405397c954033cf8dc237ccc9b
     name: odoo-bd
@@ -42,4 +42,4 @@ entries:
     urls:
     - https://micro1987.github.io/my-helm-charts/odoo-bd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-18T22:46:42.991131778-03:00"
+generated: "2021-06-18T23:10:25.855013578-03:00"
