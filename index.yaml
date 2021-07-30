@@ -1,11 +1,22 @@
 apiVersion: v1
 entries:
+  gitlab-ce:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-30T18:21:59.497399742-03:00"
+    description: A Helm chart for Kubernetes
+    digest: f41aba8e930b868fe6999fa7ce65c6651fd80b31d7d7b58fe4193c9092b9d5da
+    name: gitlab-ce
+    type: application
+    urls:
+    - https://micro1987.github.io/my-helm-charts/gitlab-ce-1.0.0.tgz
+    version: 1.0.0
   odoo-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-24T17:31:11.355016242-03:00"
+    created: "2021-07-30T18:21:59.498854404-03:00"
     description: A Helm chart for Kubernetes
-    digest: 1e1371966e9a1862493493b987acd1090b5ed3abd651773b0c867663e776721a
+    digest: 95d59364155c9f3846cc4a77adde903509b3d9bbc81cbc16f2add6170709a4ec
     name: odoo-app
     type: application
     urls:
@@ -13,7 +24,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-24T17:31:11.354452013-03:00"
+    created: "2021-07-30T18:21:59.498085868-03:00"
     description: A Helm chart for Kubernetes
     digest: 68be2f445534d4b8fd82f49895c4702a0a538b1714fae276c55e07d339eaaaf7
     name: odoo-app
@@ -24,9 +35,9 @@ entries:
   odoo-bd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-24T17:31:11.36003707-03:00"
+    created: "2021-07-30T18:21:59.500252334-03:00"
     description: A Helm chart for Kubernetes
-    digest: d575ed6676b933a6c4f3c744350b1f542d711c63cba412a469edb2ce9185a6bc
+    digest: 06a0986e8217dbc3ce881fa19851e1828ed450cffbfdc86d2eac1d469ff8e5f1
     name: odoo-bd
     type: application
     urls:
@@ -34,7 +45,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-24T17:31:11.359541454-03:00"
+    created: "2021-07-30T18:21:59.499515282-03:00"
     description: A Helm chart for Kubernetes
     digest: 1ce5b33704db1965250fb46343e3b2c862a1325688693bf6a83a81ab3fcb8328
     name: odoo-bd
@@ -42,4 +53,4 @@ entries:
     urls:
     - https://micro1987.github.io/my-helm-charts/odoo-bd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-24T17:31:11.33552638-03:00"
+generated: "2021-07-30T18:21:59.496702853-03:00"
