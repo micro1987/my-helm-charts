@@ -3,7 +3,7 @@ entries:
   gitlab-ce:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-09T14:03:09.40395013-03:00"
+    created: "2021-12-31T11:55:46.706349488-03:00"
     description: A Helm chart for Kubernetes
     digest: 07ae07c699e03168e8abedadb4b0e1d571db30ff6e3f2610dc90fb354d029be9
     name: gitlab-ce
@@ -14,17 +14,17 @@ entries:
   odoo-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-09T14:03:09.405236875-03:00"
-    description: A Helm chart for Kubernetes
-    digest: 95d59364155c9f3846cc4a77adde903509b3d9bbc81cbc16f2add6170709a4ec
+    created: "2021-12-31T11:55:46.707628619-03:00"
+    description: A Helm chart for Kubernetes with Istio config
+    digest: 45f90f481dc3bf4002981b525311d0045a9d0398eaf55c4aa826903a500ee4f9
     name: odoo-app
     type: application
     urls:
-    - https://micro1987.github.io/my-helm-charts/odoo-app-2.0.1.tgz
-    version: 2.0.1
+    - https://micro1987.github.io/my-helm-charts/odoo-app-2.1.0.tgz
+    version: 2.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-09T14:03:09.404660812-03:00"
+    created: "2021-12-31T11:55:46.706966937-03:00"
     description: A Helm chart for Kubernetes
     digest: 68be2f445534d4b8fd82f49895c4702a0a538b1714fae276c55e07d339eaaaf7
     name: odoo-app
@@ -35,17 +35,17 @@ entries:
   odoo-bd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-09T14:03:09.407047805-03:00"
-    description: A Helm chart for Kubernetes
-    digest: 06a0986e8217dbc3ce881fa19851e1828ed450cffbfdc86d2eac1d469ff8e5f1
+    created: "2021-12-31T11:55:46.708453672-03:00"
+    description: A Helm chart for Kubernetes with istio config
+    digest: 5a8d32585072cb8eca427ba09e885fc8fddd69c858ce92f1c93feffd1fd03183
     name: odoo-bd
     type: application
     urls:
-    - https://micro1987.github.io/my-helm-charts/odoo-bd-2.0.1.tgz
-    version: 2.0.1
+    - https://micro1987.github.io/my-helm-charts/odoo-bd-2.1.0.tgz
+    version: 2.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-09T14:03:09.406348993-03:00"
+    created: "2021-12-31T11:55:46.708050343-03:00"
     description: A Helm chart for Kubernetes
     digest: 1ce5b33704db1965250fb46343e3b2c862a1325688693bf6a83a81ab3fcb8328
     name: odoo-bd
@@ -53,4 +53,4 @@ entries:
     urls:
     - https://micro1987.github.io/my-helm-charts/odoo-bd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-09T14:03:09.40322892-03:00"
+generated: "2021-12-31T11:55:46.705404641-03:00"
