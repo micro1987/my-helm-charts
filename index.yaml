@@ -3,7 +3,7 @@ entries:
   awx:
   - apiVersion: v1
     appVersion: 17.1.0
-    created: "2022-06-01T11:30:17.665989815-03:00"
+    created: "2022-06-01T11:32:34.969514742-03:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -12,7 +12,7 @@ entries:
     description: AWX provides a web-based user interface, REST API, and task engine
       built on top of Ansible. It is the upstream project for Tower, a commercial
       derivative of AWX.
-    digest: 49695356d358d08e70fcd558cab44e0c05a0864f85654a69e888a995135dcc5d
+    digest: ee2a4183abfdbfccb8ab38e8b771196e507906dfadb42d502b9d8a036056d874
     home: https://github.com/ansible/awx
     icon: https://adwerx-public.s3.amazonaws.com/awx.png
     keywords:
@@ -33,7 +33,7 @@ entries:
   gitlab-ce:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T11:30:17.667410744-03:00"
+    created: "2022-06-01T11:32:34.971724392-03:00"
     description: A Helm chart for Kubernetes
     digest: 07ae07c699e03168e8abedadb4b0e1d571db30ff6e3f2610dc90fb354d029be9
     name: gitlab-ce
@@ -44,7 +44,7 @@ entries:
   odoo-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T11:30:17.670418736-03:00"
+    created: "2022-06-01T11:32:34.975829851-03:00"
     description: A Helm chart for Kubernetes with Istio config
     digest: 45f90f481dc3bf4002981b525311d0045a9d0398eaf55c4aa826903a500ee4f9
     name: odoo-app
@@ -54,7 +54,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T11:30:17.669037552-03:00"
+    created: "2022-06-01T11:32:34.973822722-03:00"
     description: A Helm chart for Kubernetes
     digest: 68be2f445534d4b8fd82f49895c4702a0a538b1714fae276c55e07d339eaaaf7
     name: odoo-app
@@ -65,7 +65,7 @@ entries:
   odoo-bd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T11:30:17.672202797-03:00"
+    created: "2022-06-01T11:32:34.978331658-03:00"
     description: A Helm chart for Kubernetes with istio config
     digest: 5a8d32585072cb8eca427ba09e885fc8fddd69c858ce92f1c93feffd1fd03183
     name: odoo-bd
@@ -75,7 +75,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T11:30:17.671355146-03:00"
+    created: "2022-06-01T11:32:34.977276223-03:00"
     description: A Helm chart for Kubernetes
     digest: 1ce5b33704db1965250fb46343e3b2c862a1325688693bf6a83a81ab3fcb8328
     name: odoo-bd
@@ -83,4 +83,4 @@ entries:
     urls:
     - https://micro1987.github.io/my-helm-charts/odoo-bd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-01T11:30:17.657538525-03:00"
+generated: "2022-06-01T11:32:34.960427686-03:00"
