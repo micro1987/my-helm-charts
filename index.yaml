@@ -3,7 +3,7 @@ entries:
   awx:
   - apiVersion: v1
     appVersion: 17.1.0
-    created: "2023-03-22T12:57:57.487239268-03:00"
+    created: "2023-03-22T13:16:02.180495841-03:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -33,7 +33,7 @@ entries:
   gitlab-ce:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-22T12:57:57.487609106-03:00"
+    created: "2023-03-22T13:16:02.182580205-03:00"
     description: A Helm chart for Kubernetes
     digest: 07ae07c699e03168e8abedadb4b0e1d571db30ff6e3f2610dc90fb354d029be9
     name: gitlab-ce
@@ -44,7 +44,7 @@ entries:
   odoo-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-22T12:57:57.488819373-03:00"
+    created: "2023-03-22T13:16:02.183404398-03:00"
     description: A Helm chart for Kubernetes with Istio config
     digest: 45f90f481dc3bf4002981b525311d0045a9d0398eaf55c4aa826903a500ee4f9
     name: odoo-app
@@ -54,7 +54,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-22T12:57:57.488140139-03:00"
+    created: "2023-03-22T13:16:02.183038834-03:00"
     description: A Helm chart for Kubernetes
     digest: 68be2f445534d4b8fd82f49895c4702a0a538b1714fae276c55e07d339eaaaf7
     name: odoo-app
@@ -65,7 +65,7 @@ entries:
   odoo-bd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-22T12:57:57.489428341-03:00"
+    created: "2023-03-22T13:16:02.183971657-03:00"
     description: A Helm chart for Kubernetes with istio config
     digest: 5a8d32585072cb8eca427ba09e885fc8fddd69c858ce92f1c93feffd1fd03183
     name: odoo-bd
@@ -75,7 +75,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-22T12:57:57.489129218-03:00"
+    created: "2023-03-22T13:16:02.18369034-03:00"
     description: A Helm chart for Kubernetes
     digest: 1ce5b33704db1965250fb46343e3b2c862a1325688693bf6a83a81ab3fcb8328
     name: odoo-bd
@@ -86,12 +86,12 @@ entries:
   wildfly:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-22T12:57:57.489736828-03:00"
+    created: "2023-03-22T13:16:02.184154596-03:00"
     description: A Helm chart for Kubernetes
-    digest: e7f444e8263ec6d118b824cf9e349e983a84dea73202d6e923ebfb407a4d9c3e
+    digest: 5688127e26cd32012318c747a912f52399406b0d8496169e86d60500036a31c5
     name: wildfly
     type: application
     urls:
     - https://micro1987.github.io/my-helm-charts/wildfly-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-22T12:57:57.484400743-03:00"
+generated: "2023-03-22T13:16:02.177563614-03:00"
