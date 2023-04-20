@@ -3,7 +3,7 @@ entries:
   awx:
   - apiVersion: v1
     appVersion: 17.1.0
-    created: "2023-04-20T12:05:25.611561768-03:00"
+    created: "2023-04-20T12:18:11.664557039-03:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -30,8 +30,18 @@ entries:
     version: 3.4.3
   gitlab-ce:
   - apiVersion: v2
+    appVersion: gitlab-ce-k8s
+    created: "2023-04-20T12:18:11.665931093-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 37558f8334c947452cb8b54cbac2c32ec1b262373bf8d711380f1329b3d930c8
+    name: gitlab-ce
+    type: application
+    urls:
+    - https://micro1987.github.io/my-helm-charts/gitlab-ce-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-20T12:05:25.61206291-03:00"
+    created: "2023-04-20T12:18:11.665316966-03:00"
     description: A Helm chart for Kubernetes
     digest: 07ae07c699e03168e8abedadb4b0e1d571db30ff6e3f2610dc90fb354d029be9
     name: gitlab-ce
@@ -39,20 +49,10 @@ entries:
     urls:
     - https://micro1987.github.io/my-helm-charts/gitlab-ce-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v2
-    appVersion: gitlab-ce-k8s
-    created: "2023-04-20T12:05:25.640912957-03:00"
-    description: A Helm chart for Kubernetes
-    digest: 9c708e4500568097e37570e402714a4c5473c8df993977c023118d1c30c8b471
-    name: gitlab-ce
-    type: application
-    urls:
-    - https://micro1987.github.io/my-helm-charts/gitlab-ce-k8s-1.0.0.tgz
-    version: 1.0.0
   odoo-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-20T12:05:25.643531479-03:00"
+    created: "2023-04-20T12:18:11.667170336-03:00"
     description: A Helm chart for Kubernetes with Istio config
     digest: 45f90f481dc3bf4002981b525311d0045a9d0398eaf55c4aa826903a500ee4f9
     name: odoo-app
@@ -62,7 +62,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-20T12:05:25.641557236-03:00"
+    created: "2023-04-20T12:18:11.666607198-03:00"
     description: A Helm chart for Kubernetes
     digest: 68be2f445534d4b8fd82f49895c4702a0a538b1714fae276c55e07d339eaaaf7
     name: odoo-app
@@ -73,7 +73,7 @@ entries:
   odoo-bd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-20T12:05:25.644705239-03:00"
+    created: "2023-04-20T12:18:11.668330628-03:00"
     description: A Helm chart for Kubernetes with istio config
     digest: 5a8d32585072cb8eca427ba09e885fc8fddd69c858ce92f1c93feffd1fd03183
     name: odoo-bd
@@ -83,7 +83,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-20T12:05:25.644243069-03:00"
+    created: "2023-04-20T12:18:11.667720426-03:00"
     description: A Helm chart for Kubernetes
     digest: 1ce5b33704db1965250fb46343e3b2c862a1325688693bf6a83a81ab3fcb8328
     name: odoo-bd
@@ -94,7 +94,7 @@ entries:
   wildfly:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-20T12:05:25.644953268-03:00"
+    created: "2023-04-20T12:18:11.668564102-03:00"
     description: A Helm chart for Kubernetes
     digest: 5688127e26cd32012318c747a912f52399406b0d8496169e86d60500036a31c5
     name: wildfly
@@ -102,4 +102,4 @@ entries:
     urls:
     - https://micro1987.github.io/my-helm-charts/wildfly-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-20T12:05:25.607754548-03:00"
+generated: "2023-04-20T12:18:11.659519995-03:00"
